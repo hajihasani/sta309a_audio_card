@@ -1,3 +1,4 @@
+
 # sta309a Audio Card
 
 ![Audio Card 3D](audio_card_3d.PNG)
@@ -15,3 +16,10 @@ This is an 8-channel audio card featuring TDM/I2S interfaces and versatile audio
 ---
 
 This audio card is ideal for multi-channel audio applications where precise control and high fidelity are required.
+
+---
+
+## Compatibility and Usage
+
+This audio card can be connected to Raspberry Pi and Orange Pi boards via I2S interface.  
+However, to enable TDM functionality, additional boards such as the T507 are required.
