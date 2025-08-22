@@ -122,11 +122,11 @@ AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
-GlobalBookmarks=0
+GlobalBookmarks=-1
 ExportBOM=-1
 TemplateFilename=
 TemplateStoreRelative=-1
-PCB_PrintColor=1
+PCB_PrintColor=0
 SCH_PrintColor=0
 PrintQuality=-3
 SCH_ShowNoErc=-1
@@ -494,6 +494,18 @@ OutputName3=Component Cross Reference Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+Configuration3_Name1=ColumnNameFormat
+Configuration3_Item1=CaptionAsName
+Configuration3_Name2=ForceUpdateSettings
+Configuration3_Item2=False
+Configuration3_Name3=General
+Configuration3_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration3_Name4=GroupOrder
+Configuration3_Item4=Document=True
+Configuration3_Name5=SortOrder
+Configuration3_Item5=Document=Up|Designator=Up
+Configuration3_Name6=VisibleOrder
+Configuration3_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType4=Export Comments
 OutputName4=Export Comments
 OutputDocumentPath4=
@@ -1206,7 +1218,7 @@ PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintSc
 Configuration_Name1=OutputConfigurationParameter1
 Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=D:\projects\altium\sta309a_audio_card\hardware\PCB1.PcbDoc
 Configuration_Name2=OutputConfigurationParameter2
-Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=D:\projects\altium\sta309a_audio_card\hardware\PCB1.PcbDoc
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=True|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=True|DocumentPath=D:\projects\altium\sta309a_audio_card\hardware\PCB1.PcbDoc
 Configuration_Name3=OutputConfigurationParameter3
 Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=D:\projects\altium\sta309a_audio_card\hardware\PCB1.PcbDoc
 Configuration_Name4=OutputConfigurationParameter4
