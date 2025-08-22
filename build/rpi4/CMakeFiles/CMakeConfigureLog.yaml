@@ -1,0 +1,353 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - aarch64
+      The host system is: Linux - 6.14.0-27-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/aarch64-linux-gnu-g++-12 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ"
+      binary: "/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/asus/proj/qt/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_955d0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_955d0.dir/build.make CMakeFiles/cmTC_955d0.dir/build
+        gmake[1]: Entering directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ'
+        Building CXX object CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/sysroot   -v -o CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++-12
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-17ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.3.0 (Ubuntu 12.3.0-17ubuntu1) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_955d0.dir/'
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/asus/proj/qt/sysroot -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_955d0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccdZIes3.s
+        GNU C++17 (Ubuntu 12.3.0-17ubuntu1) version 12.3.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/asus/proj/qt/sysroot/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc-cross/aarch64-linux-gnu/12/include-fixed"
+        ignoring nonexistent directory "/home/asus/proj/qt/sysroot/usr/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/home/asus/proj/qt/sysroot/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/aarch64-linux-gnu
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/backward
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/include
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include
+        End of search list.
+        GNU C++17 (Ubuntu 12.3.0-17ubuntu1) version 12.3.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: cb83b525c304afcf95f4c5ab2dbee61c
+        COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_955d0.dir/'
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdZIes3.s
+        GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_955d0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955d0.dir/link.txt --verbose=1
+        /usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/sysroot  -v CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_955d0 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++-12
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/aarch64-linux-gnu/12/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-17ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.3.0 (Ubuntu 12.3.0-17ubuntu1) 
+        COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'cmTC_955d0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_955d0.'
+         /usr/lib/gcc-cross/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc-cross/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoCFzLN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/asus/proj/qt/sysroot --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_955d0 /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc-cross/aarch64-linux-gnu/12 -L/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib -L/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+        COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'cmTC_955d0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_955d0.'
+        gmake[1]: Leaving directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12]
+          add: [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/aarch64-linux-gnu]
+          add: [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/backward]
+          add: [/usr/lib/gcc-cross/aarch64-linux-gnu/12/include]
+          add: [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12] ==> [/usr/aarch64-linux-gnu/include/c++/12]
+        collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/include/c++/12/aarch64-linux-gnu]
+        collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/backward] ==> [/usr/aarch64-linux-gnu/include/c++/12/backward]
+        collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc-cross/aarch64-linux-gnu/12/include]
+        collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include] ==> [/usr/aarch64-linux-gnu/include]
+        implicit include dirs: [/usr/aarch64-linux-gnu/include/c++/12;/usr/aarch64-linux-gnu/include/c++/12/aarch64-linux-gnu;/usr/aarch64-linux-gnu/include/c++/12/backward;/usr/lib/gcc-cross/aarch64-linux-gnu/12/include;/usr/aarch64-linux-gnu/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_955d0/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_955d0.dir/build.make CMakeFiles/cmTC_955d0.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-Z7jxwZ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/sysroot   -v -o CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++-12]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-17ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.3.0 (Ubuntu 12.3.0-17ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_955d0.dir/']
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/asus/proj/qt/sysroot -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_955d0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccdZIes3.s]
+        ignore line: [GNU C++17 (Ubuntu 12.3.0-17ubuntu1) version 12.3.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/asus/proj/qt/sysroot/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/aarch64-linux-gnu/12/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/asus/proj/qt/sysroot/usr/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/asus/proj/qt/sysroot/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12]
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/aarch64-linux-gnu]
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include/c++/12/backward]
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/include]
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 12.3.0-17ubuntu1) version 12.3.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: cb83b525c304afcf95f4c5ab2dbee61c]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_955d0.dir/']
+        ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdZIes3.s]
+        ignore line: [GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_955d0]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955d0.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/sysroot  -v CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_955d0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++-12]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/aarch64-linux-gnu/12/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-17ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.3.0 (Ubuntu 12.3.0-17ubuntu1) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/12/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/asus/proj/qt/sysroot' '-v' '-o' 'cmTC_955d0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_955d0.']
+        link line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc-cross/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoCFzLN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/asus/proj/qt/sysroot --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_955d0 /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crti.o /usr/lib/gcc-cross/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc-cross/aarch64-linux-gnu/12 -L/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib -L/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crtn.o]
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc-cross/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccoCFzLN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/asus/proj/qt/sysroot] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_955d0] ==> ignore
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o] ==> obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o]
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crti.o] ==> obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crti.o]
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/crtbeginS.o]
+          arg [-L/usr/lib/gcc-cross/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12]
+          arg [-L/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib] ==> dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib]
+          arg [-L/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib] ==> dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib]
+          arg [CMakeFiles/cmTC_955d0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/crtendS.o]
+          arg [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crtn.o] ==> obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crtn.o]
+        collapse obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o] ==> [/usr/aarch64-linux-gnu/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crti.o] ==> [/usr/aarch64-linux-gnu/lib/crti.o]
+        collapse obj [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib/crtn.o] ==> [/usr/aarch64-linux-gnu/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12] ==> [/usr/lib/gcc-cross/aarch64-linux-gnu/12]
+        collapse library dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib/../lib] ==> [/usr/aarch64-linux-gnu/lib]
+        collapse library dir [/usr/lib/gcc-cross/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/lib] ==> [/usr/aarch64-linux-gnu/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/aarch64-linux-gnu/lib/Scrt1.o;/usr/aarch64-linux-gnu/lib/crti.o;/usr/lib/gcc-cross/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc-cross/aarch64-linux-gnu/12/crtendS.o;/usr/aarch64-linux-gnu/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc-cross/aarch64-linux-gnu/12;/usr/aarch64-linux-gnu/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:33 (find_dependency)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Config.cmake:122 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-RsJKm0"
+      binary: "/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-RsJKm0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/asus/proj/qt/rpi4_sysroot"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-RsJKm0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b8417/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b8417.dir/build.make CMakeFiles/cmTC_b8417.dir/build
+        gmake[1]: Entering directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-RsJKm0'
+        Building CXX object CMakeFiles/cmTC_b8417.dir/src.cxx.o
+        /usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/rpi4_sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_b8417.dir/src.cxx.o -c /home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-RsJKm0/src.cxx
+        Linking CXX executable cmTC_b8417
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8417.dir/link.txt --verbose=1
+        /usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/rpi4_sysroot CMakeFiles/cmTC_b8417.dir/src.cxx.o -o cmTC_b8417 
+        gmake[1]: Leaving directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-RsJKm0'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake:33 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:33 (find_dependency)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake:50 (include)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:108 (find_dependency)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
+      - "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/Qt6Config.cmake:167 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-mIdO6S"
+      binary: "/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-mIdO6S"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/asus/proj/qt/rpi4_sysroot/usr/lib/aarch64-linux-gnu/cmake/Qt6/3rdparty/kwin"
+      CMAKE_SYSROOT: "/home/asus/proj/qt/rpi4_sysroot"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-mIdO6S'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0938a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0938a.dir/build.make CMakeFiles/cmTC_0938a.dir/build
+        gmake[1]: Entering directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-mIdO6S'
+        Building CXX object CMakeFiles/cmTC_0938a.dir/src.cxx.o
+        /usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/rpi4_sysroot -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_0938a.dir/src.cxx.o -c /home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-mIdO6S/src.cxx
+        Linking CXX executable cmTC_0938a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0938a.dir/link.txt --verbose=1
+        /usr/bin/aarch64-linux-gnu-g++-12 --sysroot=/home/asus/proj/qt/rpi4_sysroot CMakeFiles/cmTC_0938a.dir/src.cxx.o -o cmTC_0938a 
+        gmake[1]: Leaving directory '/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/CMakeScratch/TryCompile-mIdO6S'
+        
+      exitCode: 0
+...

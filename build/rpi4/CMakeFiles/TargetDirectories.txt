@@ -1,0 +1,9 @@
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/sta309a_audio_card.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/edit_cache.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/rebuild_cache.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/list_install_components.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/install.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/install/local.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/install/strip.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/sta309a_audio_card_autogen_timestamp_deps.dir
+/home/asus/proj/qt/sta309a_audio_card/build/rpi4/CMakeFiles/sta309a_audio_card_autogen.dir

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+8832c604a6717efdc7ac33b4e01e1ed9 CMakeFiles/sta309a_audio_card_autogen
+8832c604a6717efdc7ac33b4e01e1ed9 CMakeFiles/sta309a_audio_card_autogen_timestamp_deps
+cf4cdac211f031b159f538e72144133b sta309a_audio_card_autogen/timestamp

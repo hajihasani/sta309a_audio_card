@@ -1,0 +1,9 @@
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/sta309a_audio_card.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/sta309a_audio_card_autogen_timestamp_deps.dir
+/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/sta309a_audio_card_autogen.dir

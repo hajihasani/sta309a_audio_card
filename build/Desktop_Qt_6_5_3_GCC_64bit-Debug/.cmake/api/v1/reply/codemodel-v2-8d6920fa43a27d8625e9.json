@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-16e14dac7e18727918ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sta309a_audio_card",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sta309a_audio_card::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sta309a_audio_card-Debug-b26ed423c066e85665e9.json",
+					"name" : "sta309a_audio_card",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sta309a_audio_card_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sta309a_audio_card_autogen-Debug-9ed9934f83e81c16b695.json",
+					"name" : "sta309a_audio_card_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sta309a_audio_card_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sta309a_audio_card_autogen_timestamp_deps-Debug-ede722116b3b5f939d43.json",
+					"name" : "sta309a_audio_card_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/asus/proj/qt/sta309a_audio_card"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
