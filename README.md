@@ -1,7 +1,7 @@
 
 # sta309a Audio Card
 
-![Audio Card 3D](pcb1.png)
+![Audio Card 3D](PCB1.png)
 
 This is an 8-channel audio card featuring TDM/I2S interfaces and versatile audio processing capabilities.
 
