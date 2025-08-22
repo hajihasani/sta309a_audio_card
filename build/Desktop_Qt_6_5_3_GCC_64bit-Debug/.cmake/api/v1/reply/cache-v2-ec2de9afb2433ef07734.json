@@ -6714,42 +6714,6 @@
 			"value" : "/home/asus/Qt/6.5.3/gcc_64/lib/cmake/Qt6"
 		},
 		{
-			"name" : "sta309a_audio_card_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug"
-		},
-		{
-			"name" : "sta309a_audio_card_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "sta309a_audio_card_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/asus/proj/qt/sta309a_audio_card"
-		},
-		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
 			"properties" : 
 			[
@@ -6912,6 +6876,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "sta309a_audio_card_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug"
+		},
+		{
+			"name" : "sta309a_audio_card_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "sta309a_audio_card_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/asus/proj/qt/sta309a_audio_card"
 		}
 	],
 	"kind" : "cache",

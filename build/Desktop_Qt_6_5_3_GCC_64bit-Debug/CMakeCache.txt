@@ -359,15 +359,6 @@ Qt6Widgets_DIR:PATH=/home/asus/Qt/6.5.3/gcc_64/lib/cmake/Qt6Widgets
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/home/asus/Qt/6.5.3/gcc_64/lib/cmake/Qt6
 
-//Value Computed by CMake
-sta309a_audio_card_BINARY_DIR:STATIC=/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
-
-//Value Computed by CMake
-sta309a_audio_card_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-sta309a_audio_card_SOURCE_DIR:STATIC=/home/asus/proj/qt/sta309a_audio_card
-
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
 
@@ -388,6 +379,15 @@ XKB_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
 
 //Path to a library.
 pkgcfg_lib_PKG_XKB_xkbcommon:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
+
+//Value Computed by CMake
+sta309a_audio_card_BINARY_DIR:STATIC=/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
+
+//Value Computed by CMake
+sta309a_audio_card_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+sta309a_audio_card_SOURCE_DIR:STATIC=/home/asus/proj/qt/sta309a_audio_card
 
 
 ########################

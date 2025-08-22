@@ -1,16 +1,9 @@
 # ninja log v5
-1814	2056	1755720543496177095	sta309a_audio_card	e8455c61b5049cc2
-209	1720	1755675127788327839	CMakeFiles/sta309a_audio_card.dir/sta309a_audio_card_autogen/mocs_compilation.cpp.o	8c2dd5263472b0bd
-209	1690	1755675127759328977	CMakeFiles/sta309a_audio_card.dir/main.cpp.o	5b3eba6d7f156d2d
-3	13	1755720539324537399	/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/sta309a_audio_card_autogen/mocs_compilation.cpp	a487fbbd069a4ac2
-14	1814	1755720543251174385	CMakeFiles/sta309a_audio_card.dir/mainwindow.cpp.o	59edf3e7f406461a
-3	13	1755720539324537399	/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/sta309a_audio_card_autogen/timestamp	a487fbbd069a4ac2
-3	13	1755720539324537399	sta309a_audio_card_autogen/mocs_compilation.cpp	a487fbbd069a4ac2
-3	13	1755720539324537399	sta309a_audio_card_autogen/timestamp	a487fbbd069a4ac2
-13	48	1755721272574208984	sta309a_audio_card_autogen/timestamp	a487fbbd069a4ac2
-13	48	1755721272574208984	sta309a_audio_card_autogen/mocs_compilation.cpp	a487fbbd069a4ac2
-13	48	1755721272574208984	/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/sta309a_audio_card_autogen/timestamp	a487fbbd069a4ac2
-13	48	1755721272574208984	/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/sta309a_audio_card_autogen/mocs_compilation.cpp	a487fbbd069a4ac2
-52	1598	1755724209884833758	CMakeFiles/sta309a_audio_card.dir/main.cpp.o	5b3eba6d7f156d2d
-52	1864	1755724210147831711	CMakeFiles/sta309a_audio_card.dir/mainwindow.cpp.o	59edf3e7f406461a
-1864	2101	1755724210389829829	sta309a_audio_card	e8455c61b5049cc2
+1	220	1755895262813339787	sta309a_audio_card_autogen/timestamp	80cf36f543613445
+1	220	1755895262813339787	sta309a_audio_card_autogen/mocs_compilation.cpp	80cf36f543613445
+1	220	1755895262813339787	/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/sta309a_audio_card_autogen/timestamp	80cf36f543613445
+1	220	1755895262813339787	/home/asus/proj/qt/sta309a_audio_card/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/sta309a_audio_card_autogen/mocs_compilation.cpp	80cf36f543613445
+221	1751	1755895264333333733	CMakeFiles/sta309a_audio_card.dir/sta309a_audio_card_autogen/mocs_compilation.cpp.o	ab43298a18020704
+221	1782	1755895264373333574	CMakeFiles/sta309a_audio_card.dir/main.cpp.o	e709ad9f858782e1
+221	2011	1755895264602679880	CMakeFiles/sta309a_audio_card.dir/mainwindow.cpp.o	f9db2b33159cc3e2
+2011	2234	1755895264827331766	sta309a_audio_card	4a6043fefde177cf
